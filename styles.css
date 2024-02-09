@@ -58,6 +58,17 @@ h1, h2, h3, p {
   margin: 0;
 }
 
+p {
+  position: absolute; /* Đặt vị trí tuyệt đối so với phần tử cha */
+  bottom: 0; /* Đặt ở phía dưới của phần tử cha */
+  left: 0; /* Đặt ở phía trái của phần tử cha */
+  width: 100%; /* Chiếm toàn bộ chiều rộng của phần tử cha */
+  margin: 0; /* Loại bỏ margin mặc định của đoạn văn */
+  padding: 10px; /* Thêm padding để tạo khoảng trắng xung quanh đoạn văn */
+  background-color: rgba(0, 0, 0, 0.7); /* Màu nền với độ trong suốt */
+  color: 'black';
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -72,6 +83,7 @@ img {
   max-width: 90%;
   height: auto;
   display: block;
+  position: relative;
 }
 
 /*===== CLASS CSS ===== */
