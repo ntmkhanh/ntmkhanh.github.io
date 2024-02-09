@@ -65,7 +65,7 @@ p {
   width: 100%; /* Chiếm toàn bộ chiều rộng của phần tử cha */
   margin: 0; /* Loại bỏ margin mặc định của đoạn văn */
   padding: 10px; /* Thêm padding để tạo khoảng trắng xung quanh đoạn văn */
-  background-color: rgba(0, 0, 0, 0.7); /* Màu nền với độ trong suốt */
+  background-color: #7CFC00; /* Màu nền với độ trong suốt */
   color: 'black';
 }
 
